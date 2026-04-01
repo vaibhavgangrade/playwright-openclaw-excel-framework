@@ -1,0 +1,196 @@
+{
+  "config": {
+    "configFile": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\playwright.config.mjs",
+    "rootDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/artifacts/execution/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "generated-story.spec.js",
+      "file": "generated-story.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "QA Practice UI Intents",
+          "file": "generated-story.spec.js",
+          "line": 127,
+          "column": 6,
+          "specs": [
+            {
+              "title": "QA Practice UI Intents",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 60343,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "message": "Error: apiRequestContext._wrapApiCall: file data stream has unexpected number of bytes"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs",
+                            "column": 31,
+                            "line": 38
+                          },
+                          "message": "Error: Visibility assertion failed for step \"Verify text vaibhav on page\"\n\n   at ..\\src\\pom\\story-page.mjs:38\n\n  36 |       } catch {\n  37 |         const recovered = await this.#smartAssertVisibleFallback(step);\n> 38 |         if (!recovered) throw new Error(`Visibility assertion failed for step \"${stepName}\"`);\n     |                               ^\n  39 |       }\n  40 |       return;\n  41 |     }\n    at StoryPage.runStep (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:38:31)\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:137:9\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:136:7"
+                        },
+                        {
+                          "message": "Error: End of central directory record signature not found. Either not a zip file, or file is truncated."
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to configured base URL",
+                          "duration": 1301
+                        },
+                        {
+                          "title": "Expand Single UI Elements menu if collapsed",
+                          "duration": 195
+                        },
+                        {
+                          "title": "Open Inputs page",
+                          "duration": 853
+                        },
+                        {
+                          "title": "Open Buttons page",
+                          "duration": 774
+                        },
+                        {
+                          "title": "Open Checkbox page",
+                          "duration": 839
+                        },
+                        {
+                          "title": "Open Select page",
+                          "duration": 831
+                        },
+                        {
+                          "title": "Open Text Input page",
+                          "duration": 23733
+                        },
+                        {
+                          "title": "Verify text vaibhav on page",
+                          "duration": 26687,
+                          "error": {
+                            "message": "Error: Visibility assertion failed for step \"Verify text vaibhav on page\"",
+                            "stack": "Error: Visibility assertion failed for step \"Verify text vaibhav on page\"\n    at StoryPage.runStep (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:38:31)\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:137:9\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:136:7",
+                            "location": {
+                              "file": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs",
+                              "column": 31,
+                              "line": 38
+                            },
+                            "snippet": "   at ..\\src\\pom\\story-page.mjs:38\n\n  36 |       } catch {\n  37 |         const recovered = await this.#smartAssertVisibleFallback(step);\n> 38 |         if (!recovered) throw new Error(`Visibility assertion failed for step \"${stepName}\"`);\n     |                               ^\n  39 |       }\n  40 |       return;\n  41 |     }"
+                          }
+                        }
+                      ],
+                      "startTime": "2026-03-06T14:37:02.694Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-QA-Practic-4f2a3-ents-QA-Practice-UI-Intents\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-QA-Practic-4f2a3-ents-QA-Practice-UI-Intents\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "5149b2a38a19e786689b-bbb4994f21aab21ea245",
+              "file": "generated-story.spec.js",
+              "line": 128,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-06T14:37:00.496Z",
+    "duration": 64818.78800000001,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

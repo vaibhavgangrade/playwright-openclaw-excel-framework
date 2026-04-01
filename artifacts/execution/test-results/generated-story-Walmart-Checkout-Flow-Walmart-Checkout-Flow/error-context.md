@@ -1,0 +1,174 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: "#maincontent"
+          - text: Skip to Main Content
+        - text:  
+        - link [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8]
+        - generic [ref=e12]:
+          - img [ref=e13]
+          - generic [ref=e14]: Pickup or delivery?
+        - search [ref=e15]:
+          - generic [ref=e16]:
+            - searchbox [ref=e17]: ipad green yellow blue
+            - button [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+            - button [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: 
+        - navigation [ref=e22]:
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - button [ref=e26]:
+                - generic [ref=e27]: 
+                - generic [ref=e29]: EN
+            - listitem [ref=e30]:
+              - button [ref=e31] [cursor=pointer]:
+                - generic [ref=e32]: 
+                - generic [ref=e33]:
+                  - generic [ref=e34]: Reorder
+                  - generic [ref=e35]: My Items
+              - text:   
+            - listitem [ref=e36]:
+              - button [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]: 
+                - generic [ref=e39]:
+                  - generic [ref=e40]: Sign In
+                  - generic [ref=e41]: Account
+              - text:  
+            - listitem [ref=e42]:
+              - button [ref=e45]:
+                - generic [ref=e46]: 
+                - generic [ref=e47]: $0.00
+      - navigation [ref=e50]:
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - button [ref=e56]:
+              - text: Departments
+              - generic [ref=e57]: 
+          - listitem [ref=e58]:
+            - button [ref=e62]:
+              - text: Services
+              - generic [ref=e63]: 
+    - generic [ref=e64]:
+      - region [ref=e67]:
+        - separator [ref=e80]
+        - separator [ref=e93]
+      - contentinfo [ref=e197]:
+        - region [ref=e201]:
+          - paragraph [ref=e202]: We’d love to hear what you think!
+          - button [ref=e203] [cursor=pointer]: Give feedback
+        - generic [ref=e204]:
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - link [ref=e207] [cursor=pointer]:
+                - /url: /all-departments
+                - text: All Departments
+            - listitem [ref=e208]:
+              - link [ref=e209] [cursor=pointer]:
+                - /url: /store/directory
+                - text: Store Directory
+            - listitem [ref=e210]:
+              - link [ref=e211] [cursor=pointer]:
+                - /url: https://careers.walmart.com/
+                - text: Careers
+            - listitem [ref=e212]:
+              - link [ref=e213] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/
+                - text: Our Company
+            - listitem [ref=e214]:
+              - link [ref=e215] [cursor=pointer]:
+                - /url: https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_campaign=footer
+                - text: Sell on Walmart.com
+            - listitem [ref=e216]:
+              - link [ref=e217] [cursor=pointer]:
+                - /url: /help
+                - text: Help
+            - listitem [ref=e218]:
+              - link [ref=e219] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/recalls
+                - text: Product Recalls
+            - listitem [ref=e220]:
+              - link [ref=e221] [cursor=pointer]:
+                - /url: https://www.walmart.com/help/article/responsible-disclosure-and-accessibility-policies/0f173dab8bd942da84b1cd7ab5ffc3cb
+                - text: Accessibility
+            - listitem [ref=e222]:
+              - link [ref=e223] [cursor=pointer]:
+                - /url: https://www.walmart.com/cp/tax-exemption-program/8480422
+                - text: Tax Exempt Program
+            - listitem [ref=e224]:
+              - link [ref=e225] [cursor=pointer]:
+                - /url: https://walmart.onelink.me/UIev?pid=walmart.com&af_web_dp=https%3A%2F%2Fwww.walmart.com%2Fcp%2Fwalmart-mobile-app%2F1087865&c=Walmart.com%20Site%20Footer&af_dp=walmart%3A%2F%2F
+                - text: Get the Walmart App
+            - listitem [ref=e226]:
+              - link [ref=e227] [cursor=pointer]:
+                - /url: http://msds.walmartstores.com/
+                - text: Safety Data Sheet
+            - listitem [ref=e228]:
+              - link [ref=e229] [cursor=pointer]:
+                - /url: /help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0
+                - text: Terms of Use
+            - listitem [ref=e230]:
+              - link [ref=e231] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/privacy-security/walmart-privacy-notice
+                - text: Privacy Notice
+            - listitem [ref=e232]:
+              - link [ref=e233] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/california-transparency
+                - text: California Supply Chain Act
+            - listitem [ref=e234]:
+              - link [ref=e235] [cursor=pointer]:
+                - /url: https://cpa-ui.walmart.com/dc/privacy/en-US/affirmation?brandCode=WMT&languageCode=en-US&market=US
+                - img [ref=e236]
+                - text: Your Privacy Choices
+            - listitem [ref=e237]:
+              - link [ref=e238] [cursor=pointer]:
+                - /url: https://www.walmart.com/privacy-center
+                - text: Customer Privacy Center
+            - listitem [ref=e239]:
+              - link [ref=e240] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected
+                - text: Notice at Collection
+            - listitem [ref=e241]:
+              - link [ref=e242] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/privacy-security/walmart-privacy-notice#interest-based-advertising
+                - text: AdChoices
+            - listitem [ref=e243]:
+              - link [ref=e244] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/privacy-security/walmart-consumer-health-data-privacy-notices
+                - text: Consumer Health Data Privacy Notices
+            - listitem [ref=e245]:
+              - link [ref=e246] [cursor=pointer]:
+                - /url: https://www.walmart.com/brand/branddirectory
+                - text: Brand Shop Directory
+            - listitem [ref=e247]:
+              - link [ref=e248] [cursor=pointer]:
+                - /url: https://www.walmart.com/cp/pharmacy/5431?povid=HWS_GlobalFooter_Pharmacy
+                - text: Pharmacy
+            - listitem [ref=e249]:
+              - link [ref=e250] [cursor=pointer]:
+                - /url: https://www.walmart.com/cp/walmart-business/7810722?povid=7810722_POV_WMTfooter
+                - text: Walmart Business
+            - listitem [ref=e251]:
+              - link [ref=e252] [cursor=pointer]:
+                - /url: https://www.walmart.com/cp/walmart-in-the-know/7781927
+                - text: "#IYWYK"
+            - listitem [ref=e253]:
+              - link [ref=e254] [cursor=pointer]:
+                - /url: https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdelete-account
+                - text: Delete Account
+          - generic [ref=e255]: © 2026 Walmart. The trademarks Walmart and the Walmart Spark design are registered with the US Patent and Trademark Office. All Rights Reserved.
+  - alert [ref=e260]: /search?q=ipad+green+yellow+blue
+  - dialog "Robot or human?" [ref=e264]:
+    - generic [ref=e265]:
+      - button "Close dialog" [ref=e266] [cursor=pointer]:
+        - img [ref=e267]
+      - heading "Robot or human?" [level=2] [ref=e269]
+    - paragraph [ref=e273]: Activate and hold the button to confirm that you're human. Thank You!
+```

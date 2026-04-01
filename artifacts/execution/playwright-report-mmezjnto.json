@@ -1,0 +1,192 @@
+{
+  "config": {
+    "configFile": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\playwright.config.mjs",
+    "rootDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/artifacts/execution/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "generated-story.spec.js",
+      "file": "generated-story.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "QA Practice UI Intents",
+          "file": "generated-story.spec.js",
+          "line": 117,
+          "column": 6,
+          "specs": [
+            {
+              "title": "QA Practice UI Intents",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 60544,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\healing\\vision-healer.mjs",
+                            "column": 16,
+                            "line": 37
+                          },
+                          "message": "Error: page.screenshot: Target page, context or browser has been closed\n\n   at ..\\src\\healing\\vision-healer.mjs:37\n\n  35 |     const baselinePath = path.resolve(this.evidenceDir, `${this.#safe(storyName)}-last-pass.png`);\n  36 |\n> 37 |     await page.screenshot({ path: failureImagePath, fullPage: true });\n     |                ^\n  38 |     const domSnapshot = await page.content();\n  39 |     await writeFile(domPath, domSnapshot, \"utf8\");\n  40 |\n    at VisionHealer.healLocator (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\healing\\vision-healer.mjs:37:16)\n    at StoryPage.#interactWithHealing (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:95:20)\n    at StoryPage.runStep (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:50:9)\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:127:9\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:126:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to configured base URL",
+                          "duration": 3860
+                        },
+                        {
+                          "title": "Open Inputs page",
+                          "duration": 23682
+                        },
+                        {
+                          "title": "Open Buttons page",
+                          "duration": 23643
+                        },
+                        {
+                          "title": "Open Checkbox page",
+                          "duration": 981
+                        },
+                        {
+                          "title": "Open Select page",
+                          "duration": 931
+                        },
+                        {
+                          "title": "Open Text Input page",
+                          "duration": 6921,
+                          "error": {
+                            "message": "Error: page.screenshot: Target page, context or browser has been closed",
+                            "stack": "Error: page.screenshot: Target page, context or browser has been closed\n    at VisionHealer.healLocator (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\healing\\vision-healer.mjs:37:16)\n    at StoryPage.#interactWithHealing (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:95:20)\n    at StoryPage.runStep (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:50:9)\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:127:9\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:126:7",
+                            "location": {
+                              "file": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\healing\\vision-healer.mjs",
+                              "column": 16,
+                              "line": 37
+                            },
+                            "snippet": "   at ..\\src\\healing\\vision-healer.mjs:37\n\n  35 |     const baselinePath = path.resolve(this.evidenceDir, `${this.#safe(storyName)}-last-pass.png`);\n  36 |\n> 37 |     await page.screenshot({ path: failureImagePath, fullPage: true });\n     |                ^\n  38 |     const domSnapshot = await page.content();\n  39 |     await writeFile(domPath, domSnapshot, \"utf8\");\n  40 |"
+                          }
+                        }
+                      ],
+                      "startTime": "2026-03-06T14:24:16.240Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-QA-Practic-4f2a3-ents-QA-Practice-UI-Intents\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-QA-Practic-4f2a3-ents-QA-Practice-UI-Intents\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-QA-Practic-4f2a3-ents-QA-Practice-UI-Intents\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-QA-Practic-4f2a3-ents-QA-Practice-UI-Intents\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "5149b2a38a19e786689b-bbb4994f21aab21ea245",
+              "file": "generated-story.spec.js",
+              "line": 118,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-06T14:24:14.007Z",
+    "duration": 63402.087,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

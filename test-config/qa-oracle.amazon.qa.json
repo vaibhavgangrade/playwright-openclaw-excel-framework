@@ -1,0 +1,37 @@
+{
+  "projectName": "amazon-qa-project",
+  "agentId": "qa-oracle",
+  "maxAttempts": 3,
+  "context": {
+    "baseUrl": "https://www.amazon.com/",
+    "productName": "laptop",
+    "environment": "qa",
+    "auth": {
+      "mode": "env",
+      "usernameEnv": "QA_USER",
+      "passwordEnv": "QA_PASSWORD"
+    }
+  },
+  "paths": {
+    "artifactsDir": "artifacts",
+    "reportsDir": "reports",
+    "testsDir": "tests",
+    "generatedTestFile": "tests/generated-story.spec.js",
+    "selectorRegistryFile": "artifacts/selector-registry.json",
+    "evidenceDir": "artifacts/evidence",
+    "executionOutputDir": "artifacts/execution",
+    "planDraftDir": "artifacts/plans"
+  },
+  "execution": {
+    "manualReview": false,
+    "engine": "openclaw-playwright-hybrid",
+    "openclawStrict": false,
+    "intentMode": "agent-first-safe",
+    "actionDelayMs": 700,
+    "verboseStepLogs": true,
+    "playwrightFallback": true,
+    "openclawProfile": "openclaw",
+    "openclawClearCookiesOnStart": false,
+    "openclawLiveAiActionResolution": true
+  }
+}

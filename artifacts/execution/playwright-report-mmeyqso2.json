@@ -1,0 +1,184 @@
+{
+  "config": {
+    "configFile": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\playwright.config.mjs",
+    "rootDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/artifacts/execution/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/VaibhavOpenSpec/OpenClaw/playwright-openclaw-excel-framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "generated-story.spec.js",
+      "file": "generated-story.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout Flow",
+          "file": "generated-story.spec.js",
+          "line": 97,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Checkout Flow",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 53129,
+                      "error": {
+                        "message": "Error: No visible locator match found",
+                        "stack": "Error: No visible locator match found\n    at StoryPage.#pickUsableLocator (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:330:11)\n    at StoryPage.#interactWithHealing (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:70:22)\n    at StoryPage.runStep (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:49:7)\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:107:9\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:106:7",
+                        "location": {
+                          "file": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs",
+                          "column": 11,
+                          "line": 330
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\src\\pom\\story-page.mjs:330\n\n\u001b[0m \u001b[90m 328 |\u001b[39m       }\n \u001b[90m 329 |\u001b[39m     }\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 330 |\u001b[39m     \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"No visible locator match found\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 331 |\u001b[39m   }\n \u001b[90m 332 |\u001b[39m\n \u001b[90m 333 |\u001b[39m   \u001b[36masync\u001b[39m \u001b[33m#\u001b[39mshouldSkipByAuthCondition(step) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs",
+                            "column": 11,
+                            "line": 330
+                          },
+                          "message": "Error: No visible locator match found\n\n   at ..\\src\\pom\\story-page.mjs:330\n\n  328 |       }\n  329 |     }\n> 330 |     throw new Error(\"No visible locator match found\");\n      |           ^\n  331 |   }\n  332 |\n  333 |   async #shouldSkipByAuthCondition(step) {\n    at StoryPage.#pickUsableLocator (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:330:11)\n    at StoryPage.#interactWithHealing (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:70:22)\n    at StoryPage.runStep (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:49:7)\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:107:9\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:106:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to configured base URL",
+                          "duration": 3658
+                        },
+                        {
+                          "title": "Dismiss location/promo popups if visible",
+                          "duration": 45752,
+                          "error": {
+                            "message": "Error: No visible locator match found",
+                            "stack": "Error: No visible locator match found\n    at StoryPage.#pickUsableLocator (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:330:11)\n    at StoryPage.#interactWithHealing (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:70:22)\n    at StoryPage.runStep (C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs:49:7)\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:107:9\n    at C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\tests\\generated-story.spec.js:106:7",
+                            "location": {
+                              "file": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs",
+                              "column": 11,
+                              "line": 330
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\src\\pom\\story-page.mjs:330\n\n\u001b[0m \u001b[90m 328 |\u001b[39m       }\n \u001b[90m 329 |\u001b[39m     }\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 330 |\u001b[39m     \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"No visible locator match found\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 331 |\u001b[39m   }\n \u001b[90m 332 |\u001b[39m\n \u001b[90m 333 |\u001b[39m   \u001b[36masync\u001b[39m \u001b[33m#\u001b[39mshouldSkipByAuthCondition(step) {\u001b[0m"
+                          }
+                        }
+                      ],
+                      "startTime": "2026-03-06T14:01:50.015Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-Checkout-Flow-Checkout-Flow\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-Checkout-Flow-Checkout-Flow\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-Checkout-Flow-Checkout-Flow\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\artifacts\\execution\\test-results\\generated-story-Checkout-Flow-Checkout-Flow\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\VaibhavOpenSpec\\OpenClaw\\playwright-openclaw-excel-framework\\src\\pom\\story-page.mjs",
+                        "column": 11,
+                        "line": 330
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "5149b2a38a19e786689b-0e5dd1eb4bc6ff344f07",
+              "file": "generated-story.spec.js",
+              "line": 98,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-06T14:01:47.747Z",
+    "duration": 57149.624,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
