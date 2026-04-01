@@ -1,0 +1,21 @@
+{
+  "name": "playwright-openclaw-excel-framework",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Story-driven self-healing Playwright execution with OpenClaw",
+  "scripts": {
+    "test:excel": "node src/excel-runner.mjs --excel ./samples/test-steps.xlsx --sheet Steps",
+    "run:story": "node src/orchestration/run-story.mjs",
+    "run:stories": "node src/orchestration/run-stories.mjs",
+    "story": "node src/orchestration/run-story.mjs",
+    "story:checkout": "node src/orchestration/run-story.mjs test-config/qa-oracle.config.json ./stories/checkout.story.md --autoApprove true",
+    "test:story": "npx playwright test tests/generated-story.spec.js --trace on"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "openclaw": "^2026.3.2",
+    "playwright": "^1.58.2",
+    "xlsx": "^0.18.5"
+  }
+}
